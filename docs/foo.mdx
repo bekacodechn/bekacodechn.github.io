@@ -1,0 +1,47 @@
+---
+title: HaHa~
+---
+
+# {frontmatter.title}
+
+:::tip
+这是一个`tip`类型的`block`
+:::
+
+:::info
+这是一个`info`类型的`block`
+:::
+
+:::warning
+这是一个`warning`类型的`block`
+:::
+
+:::danger
+这是一个`danger`类型的`block`
+:::
+
+:::other
+`tip`作为兜底类型的`block`
+:::
+
+:::tip{title = asdfasdf}
+自定义标题的 `block`
+:::
+
+:tada: :100: :laughing:
+
+```js{3-4,6-7}
+import { defineConfig } from 'islandjs';
+
+export default defineConfig({
+  themeConfig: {
+    navbar: [
+      {
+        text: 'Home',
+        link: '/',
+        activeMatch: '^/$|^/'
+      }
+    ]
+  }
+});
+```

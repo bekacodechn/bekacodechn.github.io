@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "island dev docs",
-    "build": "island build docs",
-    "preview": "island start docs"
+    "build": "pnpm rm-dist && island build docs && rimraf blog && pnpm cp",
+    "preview": "island start docs",
+    "rm-dist": "rimraf ./docs/.island/dist",
+    "cp": "ncp ./docs/.island/dist blog"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@babel/preset-react": "^7.22.15",
-    "islandjs": "^0.7.6"
+    "islandjs": "^0.7.6",
+    "ncp": "^2.0.0",
+    "rimraf": "^5.0.5"
   }
 }

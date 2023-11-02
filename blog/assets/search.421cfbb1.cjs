@@ -29,11 +29,11 @@ require("react/jsx-runtime");
 const ssrEntry = require("../ssr-entry.js");
 require("react-dom/server");
 require("react-router");
+require("@remix-run/router");
 require("copy-to-clipboard");
 require("body-scroll-lock");
 require("react-helmet-async");
 require("b-tween");
-require("@remix-run/router");
 const _interopDefaultLegacy = (e) => e && typeof e === "object" && "default" in e ? e : { default: e };
 const FlexSearch__default = /* @__PURE__ */ _interopDefaultLegacy(FlexSearch);
 function arrayMap(array, iteratee) {
@@ -1055,7 +1055,9 @@ class PageSearcher {
     __privateSet(this, _langRoutePrefix, langRoutePrefix);
   }
   async init(options = {}) {
-    const pages = await ssrEntry.getAllPages((route) => route.path.startsWith(__privateGet(this, _langRoutePrefix)));
+    const pages = await ssrEntry.getAllPages(
+      (route) => route.path.startsWith(__privateGet(this, _langRoutePrefix))
+    );
     const pagesForSearch = pages.filter((page) => {
       var _a;
       return !WHITE_PAGE_TYPES.includes(((_a = page.frontmatter) == null ? void 0 : _a.pageType) || "");
@@ -1104,10 +1106,13 @@ class PageSearcher {
   }
   async match(query, limit = 7) {
     var _a, _b;
-    const searchResult = await Promise.all([(_a = __privateGet(this, _index)) == null ? void 0 : _a.search({
-      query,
-      limit
-    }), (_b = __privateGet(this, _cjkIndex)) == null ? void 0 : _b.search(query, limit)]);
+    const searchResult = await Promise.all([
+      (_a = __privateGet(this, _index)) == null ? void 0 : _a.search({
+        query,
+        limit
+      }),
+      (_b = __privateGet(this, _cjkIndex)) == null ? void 0 : _b.search(query, limit)
+    ]);
     const flattenSearchResult = searchResult.flat(2).filter(Boolean);
     const matchedResult = [];
     flattenSearchResult.forEach((item) => {
@@ -1127,10 +1132,7 @@ _headerToIdMap = new WeakMap();
 _langRoutePrefix = new WeakMap();
 _matchHeader = new WeakSet();
 matchHeader_fn = function(item, query, matchedResult) {
-  const {
-    headers,
-    rawHeaders
-  } = item;
+  const { headers, rawHeaders } = item;
   for (const [index, header] of headers.entries()) {
     if (header.includes(query)) {
       const headerAnchor = __privateGet(this, _headerToIdMap)[item.path + header];
@@ -1151,10 +1153,7 @@ matchHeader_fn = function(item, query, matchedResult) {
 _matchContent = new WeakSet();
 matchContent_fn = function(item, query, matchedResult) {
   var _a;
-  const {
-    content,
-    headers
-  } = item;
+  const { content, headers } = item;
   const queryIndex = content.indexOf(query);
   if (queryIndex === -1) {
     return;
@@ -1190,14 +1189,19 @@ matchContent_fn = function(item, query, matchedResult) {
 _normalizeStatement = new WeakSet();
 normalizeStatement_fn = function(statement, query) {
   const queryIndex = statement.indexOf(query);
-  const maxPrefixOrSuffix = Math.floor((THRESHOLD_CONTENT_LENGTH - query.length) / 2);
+  const maxPrefixOrSuffix = Math.floor(
+    (THRESHOLD_CONTENT_LENGTH - query.length) / 2
+  );
   let prefix = statement.slice(0, queryIndex);
   if (prefix.length > maxPrefixOrSuffix) {
     prefix = "..." + statement.slice(queryIndex - maxPrefixOrSuffix + 3, queryIndex);
   }
   let suffix = statement.slice(queryIndex + query.length);
   if (suffix.length > maxPrefixOrSuffix) {
-    suffix = statement.slice(queryIndex + query.length, queryIndex + maxPrefixOrSuffix - 3) + "...";
+    suffix = statement.slice(
+      queryIndex + query.length,
+      queryIndex + maxPrefixOrSuffix - 3
+    ) + "...";
   }
   return prefix + query + suffix;
 };

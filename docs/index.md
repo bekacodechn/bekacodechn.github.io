@@ -25,4 +25,7 @@ features:
   - title: Feature 3
     details: Feature 3 的详细内容
     icon: 🏃‍♂️
+  - title: Feature 3
+    details: Feature 3 的详细内容
+    icon: 🏃‍♂️
 ---

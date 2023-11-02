@@ -1,6 +1,10 @@
 import { defineConfig } from "islandjs";
 
 export default defineConfig({
+  enableSpa: true,
+  markdown: {
+    lineNumbers: true,
+  },
   themeConfig: {
     nav: [
       {
@@ -25,5 +29,9 @@ export default defineConfig({
         },
       ],
     },
-  },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022-present Xingyuan Yang'
+    }
+  }
 });
