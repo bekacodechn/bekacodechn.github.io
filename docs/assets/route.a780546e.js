@@ -1,0 +1,1 @@
+const c=s=>{const{base:t,routes:r}=s;return r.map(e=>({text:e,link:`${t}/${e}`}))},i=s=>{const{base:t,routes:r}=s,e=Object.entries(r).map(([n,o])=>{const u=c({base:t,routes:o});return{text:n,items:u}});return{[t]:e}};export{i as buildRoutes};
