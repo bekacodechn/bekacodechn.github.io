@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "island dev docs",
-    "build": "pnpm rm-dist && island build docs && rimraf blog && pnpm cp",
-    "preview": "island start docs",
-    "rm-dist": "rimraf ./docs/.island/dist",
-    "cp": "ncp ./docs/.island/dist blog"
+    "dev": "island dev blog",
+    "build": "pnpm rm-dist && island build blog && rimraf docs && pnpm cp",
+    "preview": "island start blog",
+    "rm-dist": "rimraf ./blog/.island/dist",
+    "cp": "ncp ./blog/.island/dist docs"
   },
   "keywords": [],
   "author": "",
