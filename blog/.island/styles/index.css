@@ -1,0 +1,39 @@
+:root {
+  --island-layout-max-width: 1600px;
+  --island-sidebar-width: 360px;
+  --island-custom-block-info-bg: #ebeffe;
+  --island-custom-block-info-text: #41339c;
+  --island-custom-block-tip-border: var(--island-custom-block-info-border);
+  --island-custom-block-tip-text: #41339c;
+  --island-custom-block-tip-bg: #ebeffe;
+}
+
+/* 修改 info块背景及字体颜色 */
+html.dark .island-directive.info code {
+  background-color: #4357a6;
+  color: #FFFFFF;
+}
+
+.island-directive.info code {
+  background-color: #4357a6;
+  color: #FFFFFF;
+}
+
+.island-directive.info a,
+.island-directive.tip a {
+  color: var(--island-custom-block-info-text);
+  font-weight: 700;
+  padding: 0 2px;
+  text-decoration: underline;
+}
+
+/* 图片居中 */
+p>img[src^="https://blog-1318409910"] {
+  margin: 0 auto;
+}
+
+nav section a[class^="_link"] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

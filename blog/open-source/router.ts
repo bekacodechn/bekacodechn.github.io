@@ -1,4 +1,4 @@
-import { buildRoutes } from "../utils/route";
+import { buildRoutes, buildTodoLink } from "../utils/route";
 
 const routes = {
   工具类: [
@@ -9,17 +9,16 @@ const routes = {
     "p-settle",
     "p-defer",
     "p-lazy",
+    buildTodoLink('dot-prop'),
+    'glob-to-regexp'
   ],
-  webpack: [
-    'minipack',
-    'mini-webpack',
-    'tapable'
-  ]
+  DesignPattern: [{ text: "洋葱模型", link: "koa-compose" }],
 };
 
-const openSourceRouter = buildRoutes({
+const { sidebarRoute: openSourceSidebar, navRoute: openSourceNav } = buildRoutes({
   base: "/open-source",
-  routes
+  routes,
+  nav: '源码阅读'
 });
 
-export { openSourceRouter };
+export { openSourceSidebar, openSourceNav};
