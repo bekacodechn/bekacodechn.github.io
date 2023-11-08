@@ -1,0 +1,1 @@
+import{buildRoutes as s}from"./route.f34528fa.js";const t={Promise:[{link:"aspect-ratio",text:"\u56FA\u5B9A\u6B3E\u9AD8\u6BD4"}]},{sidebarRoute:o,navRoute:u}=s({base:"/css",routes:t,nav:"css"});export{u as cssNav,o as cssSidebar};
