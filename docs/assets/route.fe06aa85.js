@@ -1,0 +1,1 @@
+const u={chrome:"chorme lala",performance:"\u6027\u80FD","performance/tips":"\u6027\u80FD\u6280\u5DE7",metrics:"\u5173\u952E\u6307\u6807",html:"html","how-web-browser-works":"\u6D4F\u89C8\u5668\u5DE5\u4F5C\u539F\u7406"};export{u as default};

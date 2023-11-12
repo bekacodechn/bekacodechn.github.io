@@ -9,21 +9,29 @@
     "build": "pnpm rm-dist && island build blog && rimraf docs && pnpm cp",
     "preview": "island start blog",
     "rm-dist": "rimraf ./blog/.island/dist",
-    "cp": "ncp ./blog/.island/dist docs"
+    "cp": "ncp ./blog/.island/dist docs",
+    "sync": "tsx ./utils/sync.ts",
+    "replace": "tsx ./utils/replaceWord.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/generator": "^7.23.3",
     "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.3",
     "islandjs": "^0.7.31",
     "ncp": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "replace": "^1.2.2",
     "rimraf": "^5.0.5",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/helper-plugin-utils": "^7.22.5",
+    "@babel/preset-env": "^7.23.3",
     "@types/node": "^20.9.0"
   }
 }

@@ -172,7 +172,7 @@ JavaScript from different pages are running in their own renderer process. If on
 
 2018 年，Chrome 发布了 [站点隔离]（https://www.chromium.org/Home/chromium-security/site-isolation） 功能，以保护用户免受安全漏洞的侵害。
 
-用于在页面上共享相同呈现器进程的跨站点 iframe，这意味着它可以访问相同的内存空间。借助 [Meltdown 和 Spectre](https://developers.google.com/web/updates/2018/02/meltdown-spectre)，跨站点 iframe 可以绕过[同源策略](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)。
+用于在页面上共享相同渲染器进程的跨站点 iframe，这意味着它可以访问相同的内存空间。借助 [Meltdown 和 Spectre](https://developers.google.com/web/updates/2018/02/meltdown-spectre)，跨站点 iframe 可以绕过[同源策略](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)。
 
 ![20231108164628](https://blog-1318409910.cos.ap-beijing.myqcloud.com/blog/20231108164628.png)
 
@@ -184,7 +184,7 @@ JavaScript from different pages are running in their own renderer process. If on
 
 在某种程度上，这些副本在内存中是冗余的。同时，它们是安全性和性能的权衡。在浏览器中打开 1,000 个选项卡时，1,000 个渲染器进程可能会导致性能问题。
 
-为了最大程度地减少对性能的影响，当您访问具有相同域的网站时，浏览器会尝试重用现有的呈现器进程。
+为了最大程度地减少对性能的影响，当您访问具有相同域的网站时，浏览器会尝试重用现有的渲染器进程。
 
 例如，当您访问 [Medium](http://medium.com) 网站时，您的浏览器会为其创建一个渲染器进程。然后你点击网站上的一个链接，打开一个新标签，浏览器将重用相同的渲染器进程。
 

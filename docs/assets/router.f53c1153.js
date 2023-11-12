@@ -1,1 +1,0 @@
-import{buildTodoLink as e,buildRoutes as a}from"./route.f34528fa.js";const u={webpack:["minipack","mini-webpack",e("tapable"),{link:"build-result",text:"\u6253\u5305\u5206\u6790\u7ED3\u679C"}]},{sidebarRoute:i,navRoute:t}=a({base:"/webpack",routes:u,nav:"webpack"});export{t as webpackNav,i as webpackSidebar};

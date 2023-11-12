@@ -69,196 +69,196 @@
   "src/runtime/client-entry.tsx": [],
   "../../../../../client-entry.js-unocss-hash.css": [],
   "src/theme-default/layout/NotFountLayout/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/Switch/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/assets/sun.svg": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/assets/moon.svg": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/SwitchAppearance/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../@islandjs+plugin-search@0.7.31_islandjs@0.7.31/node_modules/@islandjs/plugin-search/src/assets/search.svg": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../@islandjs+plugin-search@0.7.31_islandjs@0.7.31/node_modules/@islandjs/plugin-search/src/assets/loading.svg": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../@islandjs+plugin-search@0.7.31_islandjs@0.7.31/node_modules/@islandjs/plugin-search/src/component/Suggestion.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../@islandjs+plugin-search@0.7.31_islandjs@0.7.31/node_modules/@islandjs/plugin-search/src/component/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/Nav/NavMenuSingleItem.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/assets/down.svg": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/assets/right.svg": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/assets/translator.svg": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/Nav/NavMenuGroup.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/SocialLinks/presetIcons.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/SocialLinks/LinkContent.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/SocialLinks/ShownLinks.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/SocialLinks/HiddenLinks.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/SocialLinks/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/logic/useLocaleSiteData.ts": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/logic/usePrevNextPage.ts": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/logic/useEditLink.ts": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/logic/utils.ts": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/logic/useSidebarData.ts": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/logic/useFrontmatter.ts": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/logic/useHeaders.ts": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/NavScreenMenuGroup/NavScreenMenuGroup.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/NavScreen/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/logic/useNav.ts": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/NavHambmger/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/Nav/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/Aside/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/DocFooter/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/Siderbar/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/LocalSideBar/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/layout/DocLayout/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/layout/APILayout/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_freeGlobal.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_root.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_Symbol.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_getRawTag.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_objectToString.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseGetTag.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isObjectLike.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isSymbol.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_trimmedEndIndex.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseTrim.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isObject.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/toNumber.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/now.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/debounce.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/throttle.js": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../@islandjs+plugin-backtop@0.7.31_islandjs@0.7.31/node_modules/@islandjs/plugin-backtop/src/component/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/layout/Layout/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/Button/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/HomeHero/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/HomeFeatures/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/components/HomeFooter/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/theme-default/layout/HomeLayout/index.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "../../../../../\u0000island:site-data": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/runtime/app.tsx": [
-    "/assets/app.54507fca.js"
+    "/assets/app.048bc092.js"
   ],
   "src/runtime/Content.tsx": [
-    "/assets/Content.9f8f0d2a.js"
+    "/assets/Content.cc472dfc.js"
   ],
   "../../../react-router-dom@6.3.0_react-dom@18.2.0_react@18.2.0/node_modules/react-router-dom/index.js": [
-    "/assets/index.23b5e5b8.js"
+    "/assets/index.1a14898b.js"
   ],
   "src/runtime/index.ts": [
-    "/assets/index.344c71e5.js"
+    "/assets/index.3063fc9d.js"
   ],
   "../../../../../blog/article/astro.md": [
     "/assets/astro.49456bb8.js"
@@ -270,19 +270,19 @@
     "/assets/user-centric-performance-metrics.39b627f9.js"
   ],
   "../../../../../blog/chrome/how-web-browser-works/part-1_high-level-architecture.md": [
-    "/assets/part-1_high-level-architecture.8d25dfea.js"
+    "/assets/part-1_high-level-architecture.4d49dbea.js"
   ],
   "../../../../../blog/chrome/how-web-browser-works/part-2_navigation-phase.md": [
-    "/assets/part-2_navigation-phase.f7e671d3.js"
+    "/assets/part-2_navigation-phase.c005b633.js"
   ],
   "../../../../../blog/chrome/how-web-browser-works/part-3_rendering-phase.md": [
-    "/assets/part-3_rendering-phase.87d6fef5.js"
+    "/assets/part-3_rendering-phase.6c17e932.js"
   ],
   "../../../../../blog/chrome/how-web-browser-works/part-4_optimization-in-the-loading-stage.md": [
-    "/assets/part-4_optimization-in-the-loading-stage.e88ee261.js"
+    "/assets/part-4_optimization-in-the-loading-stage.4294779f.js"
   ],
   "../../../../../blog/chrome/how-web-browser-works/part-5_optimization-in-the-interaction-stage.md": [
-    "/assets/part-5_optimization-in-the-interaction-stage.10e767d8.js"
+    "/assets/part-5_optimization-in-the-interaction-stage.c78e6e73.js"
   ],
   "../../../../../blog/chrome/how-web-browser-works/what-forces-layout-reflow.md": [
     "/assets/what-forces-layout-reflow.4e1fbf78.js"
@@ -297,28 +297,67 @@
     "/assets/structure.e5c57d97.js"
   ],
   "../../../../../blog/chrome/metrics/FCP.md": [
-    "/assets/FCP.6a535c48.js"
+    "/assets/FCP.017934ad.js"
   ],
   "../../../../../blog/chrome/metrics/LCP.md": [
-    "/assets/LCP.e032d12f.js"
+    "/assets/LCP.fec66f99.js"
   ],
   "../../../../../blog/chrome/metrics/TTFB.md": [
-    "/assets/TTFB.0f7de842.js"
+    "/assets/TTFB.0db774eb.js"
   ],
   "../../../../../blog/chrome/performance/general-html-performance.md": [
     "/assets/general-html-performance.9167592c.js"
   ],
   "../../../../../blog/chrome/performance/optimize-resource-loading.md": [
-    "/assets/optimize-resource-loading.25335642.js"
+    "/assets/optimize-resource-loading.c2db1917.js"
   ],
-  "../../../../../blog/chrome/performance/tips/aa/a.md": [
-    "/assets/a.53f3d000.js"
+  "../../../../../blog/chrome/performance/tips/browser-process-model.md": [
+    "/assets/browser-process-model.c16dd4fc.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/browser-rendering-pipeline.md": [
+    "/assets/browser-rendering-pipeline.6f62963c.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/codepath-scoping.md": [
+    "/assets/codepath-scoping.626921cc.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/collect-a-trace.md": [
+    "/assets/collect-a-trace.b05ccbdc.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/event-loop.md": [
+    "/assets/event-loop.21bf15ff.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/flamegraphs-in-depth.md": [
+    "/assets/flamegraphs-in-depth.8eefdd8f.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/long-tasks.md": [
+    "/assets/long-tasks.5a863198.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/main-profiler-pane.md": [
+    "/assets/main-profiler-pane.b3bb98b6.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/measuring-paint-time.md": [
+    "/assets/measuring-paint-time.923128c4.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/network-profiler-pane.md": [
+    "/assets/network-profiler-pane.413280cc.js"
   ],
   "../../../../../blog/chrome/performance/tips/network-tab.md": [
     "/assets/network-tab.9c9c0dae.js"
   ],
+  "../../../../../blog/chrome/performance/tips/performance-timing-markers.md": [
+    "/assets/performance-timing-markers.00a19f32.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/profiler-basic-ui.md": [
+    "/assets/profiler-basic-ui.27957e02.js"
+  ],
   "../../../../../blog/chrome/performance/tips/resource-size-vs-transfer-size.md": [
-    "/assets/resource-size-vs-transfer-size.21c79e79.js"
+    "/assets/resource-size-vs-transfer-size.cf394b57.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/understanding-flamegraphs.md": [
+    "/assets/understanding-flamegraphs.e150b017.js"
+  ],
+  "../../../../../blog/chrome/performance/tips/validating-compression.md": [
+    "/assets/validating-compression.d6705b02.js"
   ],
   "../../../../../blog/chrome/performance/welcome-copy.md": [
     "/assets/welcome-copy.4278c49e.js"
@@ -329,32 +368,14 @@
   "../../../../../blog/chrome/performance/why-speed-matters.md": [
     "/assets/why-speed-matters.0f2dd660.js"
   ],
-  "../../../../../blog/chrome/router.ts": [
-    "/assets/router.f8d17df6.js"
-  ],
-  "../../../../../__vite-browser-external": [
-    "/assets/route.f34528fa.js"
-  ],
-  "../../../../../blog/utils/route.ts": [
-    "/assets/route.f34528fa.js"
-  ],
-  "../../../../../blog/css/a.tsx": [
-    "/assets/a.7cdcabb0.js"
-  ],
-  "../../../../../blog/css/aspect-ratio.mdx": [
-    "/assets/aspect-ratio.e11711c5.js"
-  ],
-  "../../../../../blog/css/router.ts": [
-    "/assets/router.a8a1f90b.js"
+  "../../../../../blog/chrome/route.ts": [
+    "/assets/route.fe06aa85.js"
   ],
   "../../../../../blog/design-pattern/indexs.md": [
-    "/assets/indexs.fdeb2efe.js"
+    "/assets/indexs.af4db335.js"
   ],
   "../../../../../blog/design-pattern/proxy-pattern.md": [
     "/assets/proxy-pattern.47c4eef0.js"
-  ],
-  "../../../../../blog/design-pattern/router.ts": [
-    "/assets/router.77eb030d.js"
   ],
   "../../../../../blog/design-pattern/singleton-pattern.md": [
     "/assets/singleton-pattern.5ee780c6.js"
@@ -369,420 +390,411 @@
     "/assets/index.cee14192.js"
   ],
   "../../../../../blog/open-source/delay.md": [
-    "/assets/delay.12a4f076.js"
+    "/assets/delay.cd900598.js"
   ],
   "../../../../../blog/open-source/dot-prop.md": [
     "/assets/dot-prop.165a132d.js"
   ],
   "../../../../../blog/open-source/glob-to-regexp.md": [
-    "/assets/glob-to-regexp.91a21efc.js"
+    "/assets/glob-to-regexp.3d619071.js"
   ],
   "../../../../../blog/open-source/koa-compose.md": [
-    "/assets/koa-compose.1e23575e.js"
+    "/assets/koa-compose.1b0d92f6.js"
   ],
   "../../../../../blog/open-source/lru-cache.md": [
-    "/assets/lru-cache.9ebb0b9d.js"
+    "/assets/lru-cache.4d8b01b6.js"
   ],
   "../../../../../blog/open-source/p-defer.md": [
-    "/assets/p-defer.f2ea1d49.js"
+    "/assets/p-defer.6b204a75.js"
   ],
   "../../../../../blog/open-source/p-lazy.md": [
-    "/assets/p-lazy.0f25fb48.js"
+    "/assets/p-lazy.578e6c54.js"
   ],
   "../../../../../blog/open-source/p-limit.md": [
-    "/assets/p-limit.70b2f79c.js"
+    "/assets/p-limit.3427a230.js"
   ],
   "../../../../../blog/open-source/p-locate.md": [
-    "/assets/p-locate.23e9f30f.js"
+    "/assets/p-locate.e2eabc30.js"
   ],
   "../../../../../blog/open-source/p-settle.md": [
-    "/assets/p-settle.c97cb330.js"
-  ],
-  "../../../../../blog/open-source/router.ts": [
-    "/assets/router.a624df47.js"
+    "/assets/p-settle.2e394ca9.js"
   ],
   "../../../../../blog/open-source/yocto-queue.md": [
-    "/assets/yocto-queue.a6bded71.js"
+    "/assets/yocto-queue.303d2945.js"
   ],
   "../../../../../blog/promise/first-resolved.md": [
-    "/assets/first-resolved.03157a82.js"
-  ],
-  "../../../../../blog/promise/router.ts": [
-    "/assets/router.fa9e1081.js"
+    "/assets/first-resolved.a167424e.js"
   ],
   "../../../../../blog/promise/sequential-execution.md": [
-    "/assets/sequential-execution.85ffae9e.js"
+    "/assets/sequential-execution.50bec57a.js"
   ],
   "../../../../../blog/webpack/build-result.md": [
-    "/assets/build-result.d13d0221.js"
+    "/assets/build-result.b2613569.js"
   ],
   "../../../../../blog/webpack/mini-webpack.md": [
-    "/assets/mini-webpack.aa8a9d04.js"
+    "/assets/mini-webpack.0c8a6c8f.js"
   ],
   "../../../../../blog/webpack/minipack.md": [
-    "/assets/minipack.bcf1132b.js"
-  ],
-  "../../../../../blog/webpack/router.ts": [
-    "/assets/router.f53c1153.js"
+    "/assets/minipack.95c77eaa.js"
   ],
   "../../../../../blog/webpack/tapable.md": [
-    "/assets/tapable.b4a78e6e.js"
+    "/assets/tapable.e4798861.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_arrayMap.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isArray.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseToString.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/identity.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isFunction.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_coreJsData.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_isMasked.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_toSource.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseIsNative.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_getValue.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_getNative.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_WeakMap.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/noop.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseFindIndex.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseIsNaN.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_strictIndexOf.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseIndexOf.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_arrayIncludes.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_isIndex.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/eq.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isLength.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isArrayLike.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_isPrototype.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseTimes.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseIsArguments.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isArguments.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/stubFalse.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isBuffer.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseIsTypedArray.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseUnary.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_nodeUtil.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/isTypedArray.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_arrayLikeKeys.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_overArg.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_nativeKeys.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseKeys.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/keys.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_isKey.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_nativeCreate.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_hashClear.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_hashDelete.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_hashGet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_hashHas.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_hashSet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_Hash.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_listCacheClear.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_assocIndexOf.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_listCacheDelete.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_listCacheGet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_listCacheHas.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_listCacheSet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_ListCache.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_Map.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_mapCacheClear.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_isKeyable.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_getMapData.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_mapCacheDelete.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_mapCacheGet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_mapCacheHas.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_mapCacheSet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_MapCache.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/memoize.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_memoizeCapped.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_stringToPath.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/toString.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_castPath.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_toKey.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseGet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/get.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_arrayPush.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_stackClear.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_stackDelete.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_stackGet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_stackHas.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_stackSet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_Stack.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_arrayFilter.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/stubArray.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_getSymbols.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseGetAllKeys.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_getAllKeys.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_DataView.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_Promise.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_Set.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_getTag.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_Uint8Array.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_setCacheAdd.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_setCacheHas.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_SetCache.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_arraySome.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_cacheHas.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_equalArrays.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_mapToArray.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_setToArray.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_equalByTag.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_equalObjects.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseIsEqualDeep.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseIsEqual.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseIsMatch.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_isStrictComparable.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_getMatchData.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_matchesStrictComparable.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseMatches.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseHasIn.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_hasPath.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/hasIn.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseMatchesProperty.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseProperty.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_basePropertyDeep.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/property.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseIteratee.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_arrayIncludesWith.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_createSet.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/_baseUniq.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../lodash-es@4.17.21/node_modules/lodash-es/uniqBy.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../../../\u0000/Users/beka/Desktop/code/bekacodechn.github.io/node_modules/.pnpm/flexsearch@0.6.32/node_modules/flexsearch/dist/flexsearch.min.js?commonjs-module": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../flexsearch@0.6.32/node_modules/flexsearch/dist/flexsearch.min.js": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../@islandjs+plugin-search@0.7.31_islandjs@0.7.31/node_modules/@islandjs/plugin-search/src/logic/util.ts": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ],
   "../../../@islandjs+plugin-search@0.7.31_islandjs@0.7.31/node_modules/@islandjs/plugin-search/src/logic/search.ts": [
-    "/assets/search.071aa04b.js"
+    "/assets/search.1b5fce07.js"
   ]
 }

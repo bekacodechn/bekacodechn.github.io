@@ -159,7 +159,7 @@ animate.start("left", 500, 1000, "strongEaseOut");
 ```html
 <html>
 <body>
-	<form action="http:// xxx.com/register" id="registerForm" method="post">
+	<form action="http:// service workerx.com/register" id="registerForm" method="post">
 		请输入用户名：<input type="text" name="userName"/ >
 		请输入密码：<input type="text" name="password"/ >
 
@@ -195,7 +195,7 @@ animate.start("left", 500, 1000, "strongEaseOut");
 <html>
 
 <body>
-  <form action="http:// xxx.com/register" id="registerForm" method="post">
+  <form action="http:// service workerx.com/register" id="registerForm" method="post">
     请输入用户名：<input type="text" name="userName" />
     请输入密码：<input type="text" name="password" />
     请输入手机号码：<input type="text" name="phoneNumber" />
