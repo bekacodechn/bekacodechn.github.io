@@ -1,4 +1,10 @@
-项目：[p-lazy](https://github.com/sindresorhus/p-lazy)
+# p-lazy
+
+`metadata:`
+
+**链接:** https://github.com/sindresorhus/p-lazy
+
+---
 
 延迟执行`Promise`构造体。在调用`then`/`catch`时才执行`new PLazy(executor)`里的`executor`。
 

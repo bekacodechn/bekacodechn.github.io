@@ -1,5 +1,10 @@
+# yocto-queue
 
-项目：[yocto-queue](https://github.com/sindresorhus/yocto-queue)
+`metadata:`
+
+**链接:** https://github.com/sindresorhus/yocto-queue
+
+---
 
 先进先出单项链表，支持压栈、出栈、迭代和获取长度。重点是理解`#24-25行`,起到链接`Node`作用.
 ```js{24,25}

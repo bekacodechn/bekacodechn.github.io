@@ -1,4 +1,10 @@
-项目: [p-settle](https://github.com/sindresorhus/p-settle/tree/main)
+# p-settle
+
+`metadata:`
+
+**链接:** https://github.com/sindresorhus/p-settle/tree/main
+
+---
 
 类似`Promise.allSettled`，但支持控制并发。
 

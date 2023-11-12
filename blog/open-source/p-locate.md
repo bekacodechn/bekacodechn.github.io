@@ -1,4 +1,10 @@
-项目：[ p-locate ](https://github.com/sindresorhus/p-locate)
+#  p-locate
+
+`metadata:`
+
+**链接:** https://github.com/sindresorhus/p-locate
+
+---
 
 异步版的`Array#find`
 

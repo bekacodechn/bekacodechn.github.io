@@ -1,3 +1,6 @@
+/**
+ * 重写config.ts，起到刷新路由的作用。
+ */
 import fs from 'fs'
 import path from 'path'
 import { BLOG } from "./constants";

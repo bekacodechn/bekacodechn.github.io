@@ -1,4 +1,10 @@
-项目： [ p-limit ](https://github.com/sindresorhus/p-limit)
+# p-limit
+
+`metadata:`
+
+**链接:** https://github.com/sindresorhus/p-limit
+
+---
 
 控制并发，在原基础上添加了取消未完成任务`clearPending()`。
 

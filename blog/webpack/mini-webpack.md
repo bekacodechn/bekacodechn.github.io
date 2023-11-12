@@ -1,4 +1,10 @@
-项目：[mini-webpack](https://github.com/cuixiaorui/mini-webpack)
+# mini-webpack
+
+`metadata:`
+
+**链接:** https://github.com/cuixiaorui/mini-webpack
+
+---
 
 1. 相比`minipack`多实现了`loader`和`plugin`，构建依赖等核心代码基本相同。
 2. `loader`的调用发生在将`module`转为`ast`之前，是`source => source`的过程（均为字符串）。

@@ -107,7 +107,7 @@ Use the "chromium source tree link" below to explore on your own!
 
 ## Appendix (附录)
 
-* Reflow only has a cost if the document has changed and invalidated the style or layout. Typically, this is because the DOM was changed (classes modified, nodes added/removed, even adding a psuedo-class like :focus).
+* Reflow only has a cost if the document has changed and invalidated the style or layout. Typically, this is because the DOM was changed (classes modified, nodes added/removed, even adding a psuedo-class like \:focus).
 * If layout is forced, style must be recalculated first. So forced layout triggers both operations. Their costs are very dependent on the content/situation, but typically both operations are similar in cost.
 * What should you do about all this? Well, the `More on forced layout` section below covers everything in more detail, but the short version is: 
   1. `for` loops that force layout & change the DOM are the worst, avoid them. 

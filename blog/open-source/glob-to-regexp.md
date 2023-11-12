@@ -1,4 +1,10 @@
-项目: [glob-to-regexp](https://github.com/fitzgen/glob-to-regexp/tree/master)
+# glob-to-regexp
+
+`metadata:`
+
+**链接:** https://github.com/fitzgen/glob-to-regexp/tree/master
+
+---
 
 简版`glob`。 将`*`等通配符转为正则表达式，识别`*`、`?`、`{}`和`[]`，代码100来行，但很精彩。
 1. `for`循环 + `switch` + `while`循环逐字解析字符串，并转为正则字符串。

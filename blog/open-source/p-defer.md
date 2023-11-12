@@ -1,3 +1,5 @@
+# p-defer
+
 ```js
 export default function Defer() {
 	const deferred = {}

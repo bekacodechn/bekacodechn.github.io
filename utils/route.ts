@@ -146,7 +146,7 @@ const generateRoutes = (sourceDir: string, titles: Record<string, string>) => {
     if (!title) {
       title =
         contents[0]?.trim().replace(/^#\s*/, "") ||
-        `【--缺少-标题--】: ${file}`;
+        `【--空文件--】: ${file}`;
     }
 
     file = file.replace(/\.md$/, "");

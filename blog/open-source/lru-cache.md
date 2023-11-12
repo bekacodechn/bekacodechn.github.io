@@ -1,4 +1,10 @@
-项目: [quick-lru](https://github.com/
+# quick-lru
+
+`metadata:`
+
+**链接:** 
+
+---
 
 模仿`quick-lru`写的简单`lru`工具，去除了`双map`、`maxAge`。`双map`方案借鉴了[hashlru](https://github.com/dominictarr/hashlru#algorithm)，是为了解决`delete obj[prop]`慢的问题。
 

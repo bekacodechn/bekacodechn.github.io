@@ -1,4 +1,10 @@
-原项目：[delay](https://github.com/sindresorhus/delay)
+# delay
+
+`metadata:`
+
+**链接:** https://github.com/sindresorhus/delay
+
+---
 
 延迟函数，支持打断、提前开始。
 

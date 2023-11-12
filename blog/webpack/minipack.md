@@ -1,4 +1,10 @@
-项目：[minipack-explain](https://github.com/chinanf-boy/minipack-explain/tree/master) 有更详细的注释
+# minipack-explain
+
+`metadata:`
+
+**链接:** https://github.com/chinanf-boy/minipack-explain/tree/master
+
+---
 
 用javascript编写的现代模块打包器的简化示例，学习自 minipack-explain。
 

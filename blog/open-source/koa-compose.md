@@ -1,6 +1,12 @@
-`koa`洋葱模型
+# koa 洋葱模型
 
-项目: [koa-compose](https://www.npmjs.com/package/koa-compose)
+`metadata:`
+
+**原标题:** koa-compose
+
+**链接:** https://www.npmjs.com/package/koa-compose
+
+---
 
 ```js
 import { delay } from "helper";
