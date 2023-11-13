@@ -15,7 +15,7 @@ const ignorePaths = BLOG_IGNORE_DIR.map((item) =>
 
 // key: 目标值， value: 原字符串
 const wordsMap: WorkMap = {
-  "service worker": ["服务工作者"],
+  "service worker": ["服务工作者", "服务 Worker"],
   UI线程: "用户界面线程",
   渲染器: "呈现器",
 };

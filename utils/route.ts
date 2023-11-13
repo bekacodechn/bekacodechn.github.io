@@ -6,7 +6,7 @@ import { BLOG } from "./constants";
 
 const routeCache = {};
 
-type link = (string | { link: string; text?: string; })[];
+type link = (string | { link: string; text?: string })[];
 
 interface IRoute {
   base: string; // 基础目录
@@ -75,7 +75,6 @@ const buildRoutes = (option: IRoute) => {
   };
 };
 
-
 const getLegalCategory = (file: string, titles: Record<string, string>) => {
   file = file.replace(/\.md$/, "");
   let folders = file.split("/").slice(0, -1);
@@ -104,26 +103,44 @@ const getLegalCategory = (file: string, titles: Record<string, string>) => {
 };
 
 /**
+ * 
+ * @param sourceDir blog的直接下级目录，
+ * @param file md的文件路径
+ * @param titles route.ts文件内容
+ * @returns 属于哪个分类
+ */
+const getCateFromTitleMap = (sourceDir: string, file: string, titles: Record<string, string>) => {
+  titles = titles || {}
+  let category = getLegalCategory(file, titles);
+
+    if (!category) {
+      category = titles[sourceDir] || sourceDir;
+    }
+
+    if (category) {
+      category = upperCaseStart(category);
+    }
+
+    return category
+}
+
+/**
  * 根据类型映射生成目录结构
  * @param sourceDir 生成route起始位置
  * @param titles 路径和分类名称的映射
  * @returns
  */
 const generateRoutes = (sourceDir: string, titles: Record<string, string>) => {
-  const originDir = sourceDir;
-  const prefix =
-    process.argv.filter((argv) => !argv.startsWith("--")).slice(-1)[0] ||
-    "blog";
-  sourceDir = path.resolve(process.cwd(), `${prefix}/${sourceDir}`);
+  const routeDir = path.resolve(BLOG, sourceDir);
 
-  if (!fs.statSync(sourceDir).isDirectory()) {
-    throw new Error(`路径错误，并非目录地址: ${sourceDir}`);
+  if (!fs.statSync(routeDir).isDirectory()) {
+    throw new Error(`路径错误，并非目录地址: ${routeDir}`);
   }
-  let files = fs.readdirSync(sourceDir, { recursive: true, encoding: "utf-8" });
+  let files = fs.readdirSync(routeDir, { recursive: true, encoding: "utf-8" });
   files = files.filter((file) => file.endsWith(".md"));
 
   return files.reduce((routes, file) => {
-    const filePath = path.join(sourceDir, file);
+    const filePath = path.join(routeDir, file);
     const content = fs.readFileSync(filePath, "utf-8");
 
     const contents = content.split(/\r?\n/g).filter(Boolean);
@@ -137,21 +154,12 @@ const generateRoutes = (sourceDir: string, titles: Record<string, string>) => {
     // 读取文件的第一行作为目录标题
     if (!title) {
       title =
-        contents[0]?.trim().replace(/^#\s*/, "") ||
-        `【--空文件--】: ${file}`;
+        contents[0]?.trim().replace(/^#\s*/, "") || `【--空文件--】: ${file}`;
     }
 
     file = file.replace(/\.md$/, "");
 
-    let category = getLegalCategory(file, titles);
-
-    if (!category) {
-      category = titles[originDir] || null;
-    }
-
-    if (category) {
-      category = upperCaseStart(category);
-    }
+    const category = getCateFromTitleMap(sourceDir, file, titles)
     if (!routes[category]) {
       routes[category] = [];
     }
@@ -171,6 +179,22 @@ const getRootPath = (metaUrl: string) => {
   return name;
 };
 
+const getFolderMap = (folder: string) => {
+  const defaultFolderMap = { [folder]: folder };
+  let folderMap;
+  const routerPath = path.resolve(BLOG, folder, "route.ts");
+  if (!fs.existsSync(routerPath)) {
+    folderMap = defaultFolderMap;
+  } else {
+    folderMap = getRouteMap(routerPath);
+  }
+  folderMap = folderMap || defaultFolderMap;
+  if (folderMap[0]) {
+    folderMap[folder] = folderMap[0];
+  }
+  return folderMap;
+};
+
 const generateAllRoutes = (blackList: string[]) => {
   const blogDirs = fs.readdirSync(BLOG).filter((dir) => {
     if (blackList.includes(dir)) return false;
@@ -179,21 +203,10 @@ const generateAllRoutes = (blackList: string[]) => {
     if (!fs.statSync(blogDir).isDirectory()) return false;
     return true;
   });
-  
+
   const routes = blogDirs.reduce<{ nav: any; sidebar: any }>(
     (result, item) => {
-      const defaultFolderMap = { [item]: item };
-      let folderMap;
-      const routerPath = path.resolve(BLOG, item, "route.ts");
-      if (!fs.existsSync(routerPath)) {
-        folderMap = defaultFolderMap;
-      } else {
-        folderMap = getRouteMap(routerPath);
-      }
-      folderMap = folderMap || defaultFolderMap;
-      if (folderMap[0]) {
-        folderMap[item] = folderMap[0];
-      }
+      const folderMap = getFolderMap(item);
       const routes = generateRoutes(item, folderMap);
       const { sidebarRoute, navRoute } =
         buildRoutes({
@@ -210,7 +223,14 @@ const generateAllRoutes = (blackList: string[]) => {
     { nav: [], sidebar: {} }
   );
 
-  return routes
+  return routes;
 };
 
-export { buildRoutes, generateRoutes, getRootPath, generateAllRoutes };
+export {
+  buildRoutes,
+  generateRoutes,
+  getRootPath,
+  generateAllRoutes,
+  getFolderMap,
+  getCateFromTitleMap,
+};

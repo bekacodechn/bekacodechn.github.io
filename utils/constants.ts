@@ -6,4 +6,4 @@ export const BLOG = path.resolve(cwd, 'blog')
 
 export const BABEL = path.resolve(cwd, 'babel')
 
-export const BLOG_IGNORE_DIR = ['.island', 'utils']
+export const BLOG_IGNORE_DIR = ['.island']

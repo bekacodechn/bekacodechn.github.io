@@ -1,5 +1,4 @@
 export default {
-  chrome: "chorme lala",
   performance: "性能",
   "performance/tips": "性能技巧",
   metrics: "关键指标",

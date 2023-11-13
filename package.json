@@ -11,7 +11,8 @@
     "rm-dist": "rimraf ./blog/.island/dist",
     "cp": "ncp ./blog/.island/dist docs",
     "sync": "tsx ./utils/sync.ts",
-    "replace": "tsx ./utils/replaceWord.ts"
+    "replace": "tsx ./utils/replaceWord.ts",
+    "out-link": "tsx ./utils/outboundLink.ts"
   },
   "keywords": [],
   "author": "",
