@@ -6,7 +6,7 @@ import { BLOG } from "./constants";
 
 const routeCache = {};
 
-type link = (string | { link: string; text?: string; todo?: boolean })[];
+type link = (string | { link: string; text?: string; })[];
 
 interface IRoute {
   base: string; // 基础目录
@@ -25,11 +25,10 @@ const buildItems = (options: { base: string; routes: link }) => {
   const { base, routes } = options;
   return routes.map((route) => {
     if (typeof route === "string") {
-      route = { text: route, link: route, todo: false };
+      route = { text: route, link: route };
     }
-    let { text, link, todo } = route;
+    let { text, link } = route;
     text = text || link;
-    text = todo ? `【TODO】 ${text}` : text;
     return {
       text,
       link: joinPath(base, link),
@@ -76,13 +75,6 @@ const buildRoutes = (option: IRoute) => {
   };
 };
 
-const buildTodoLink = (link: link[0]) => {
-  if (typeof link === "string") {
-    link = { link };
-  }
-  link.todo = true;
-  return link;
-};
 
 const getLegalCategory = (file: string, titles: Record<string, string>) => {
   file = file.replace(/\.md$/, "");
@@ -221,4 +213,4 @@ const generateAllRoutes = (blackList: string[]) => {
   return routes
 };
 
-export { buildRoutes, buildTodoLink, generateRoutes, getRootPath, generateAllRoutes };
+export { buildRoutes, generateRoutes, getRootPath, generateAllRoutes };
