@@ -1,0 +1,1 @@
+const u={performance:"\u6027\u80FD","performance/tips":"\u6027\u80FD\u6280\u5DE7",metrics:"\u5173\u952E\u6307\u6807",html:"html","how-web-browser-works":"\u6D4F\u89C8\u5668\u5DE5\u4F5C\u539F\u7406","modern-web-browser":"\u73B0\u4EE3\u7F51\u7EDC\u6D4F\u89C8\u5668\u5185\u5E55"};export{u as default};
