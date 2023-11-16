@@ -1,4 +1,4 @@
-# URL 合集
+# 外链合集
 ## Open-source
 ### quick-lru
 [跳到文章](open-source/lru-cache.md) open-source/lru-cache.md
@@ -223,7 +223,7 @@
 1. [Site Isolation](https://developers.google.com//web/updates/2018/07/site-isolation)
 2. [同源策略](https://developer.mozilla.org/docs/Web/Security/Same-origin_policy)
 3. [Meltdown 和 Spectre](https://developers.google.com/web/updates/2018/02/meltdown-spectre)
-### 现代网络浏览器内幕 - 2
+### 现代网络浏览器内幕 — 2
 [跳到文章](chrome/modern-web-browser/inside-browser-part-2.md) chrome/modern-web-browser/inside-browser-part-2.md
 
 1. [MIME 类型](https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
@@ -259,8 +259,8 @@
 2. [如何衡量网站性能](https://developers.google.com/web/tools/chrome-devtools/speed/get-started)
 3. [功能策略](https://developers.google.com/web/updates/2018/06/feature-policy)
 ## 性能
-### 一般 HTML 性能注意事项
-[跳到文章](chrome/performance/general-html-performance.md) chrome/performance/general-html-performance.md
+### 2. 一般 HTML 性能注意事项
+[跳到文章](chrome/performance/2-general-html-performance.md) chrome/performance/2-general-html-performance.md
 
 1. [GET 请求](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Methods/GET)
 2. [第一内容填充 (FCP)](https://web.dev/articles/fcp)

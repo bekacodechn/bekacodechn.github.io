@@ -1,4 +1,4 @@
-# Welcome to Lean performance
+# 1. Welcome to Lean performance
 
 
 `metadata:`

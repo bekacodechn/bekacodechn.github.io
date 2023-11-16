@@ -2,6 +2,7 @@ import fs, { readFileSync } from "fs";
 import path from "path";
 import { BLOG, BLOG_IGNORE_DIR } from "./constants";
 import { getFolderMap, getCateFromTitleMap } from "./route";
+import Url from 'url'
 
 interface MdFileOption {
   blackList?: string[];
@@ -16,7 +17,7 @@ const findAllMdFiles = (option: MdFileOption = {}) => {
     suffix = [".md"],
     dest = "article-set",
     filename = "URL-SET.md",
-    fileTitle = "URL 合集",
+    fileTitle = "外链合集",
     blackList = BLOG_IGNORE_DIR,
   } = option;
 
@@ -78,6 +79,9 @@ const findAllMdFiles = (option: MdFileOption = {}) => {
         categoryMap[category].push(title);
         categoryMap[category].push(`[跳到文章](${dir}) ${dir}\n`);
       }
+      // const reg = /\]\(([^)]+)\)/
+      // const a = reg.exec(url[0])?.[1]
+      // const parsedUrl = Url.parse(a!)
       categoryMap[category].push(`${index + 1}. ${url[0]}`);
     });
   });
