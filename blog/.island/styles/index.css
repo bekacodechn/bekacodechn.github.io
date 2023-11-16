@@ -37,3 +37,45 @@ nav section a[class^="_link"] {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+@media (min-width: 1600px) {
+
+  aside[class^="_sidebar"],
+  div[class^="_nav-bar-title"] {
+    padding: 0;
+    padding-left: 50px;
+    width: 20% !important;
+    max-width: 450px;
+  }
+
+  aside[class^="_sidebar"] {
+    margin-top: 60px;
+  }
+
+  div[class^="_container_"] {
+    max-width: 100%;
+  }
+
+  div[class^="_content_"] {
+    padding-right: 50px;
+  }
+
+  .divider-bottom {
+    padding: 0;
+  }
+
+  div[class^="_docLayout"] div[class^="_content"] {
+    padding: 0;
+  }
+
+  .md\:max-w-712px,
+  [md\:max-w-712px=""] {
+    min-width: 1100px;
+    max-width: 80%;
+    width: 70%;
+  }
+
+  div[class="max-w-100%"] {
+    margin: 0 0 0 20%;
+  }
+}
