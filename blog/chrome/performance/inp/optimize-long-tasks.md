@@ -167,21 +167,21 @@ In addition to `setTimeout()`, there are a few other APIs that allow you to def
 
 除了 `setTimeout()` 之外，还有一些其他 API 允许您将代码执行推迟到后续任务。一种是用于 `postMessage()` 更快的超时。您还可以使用（但要注意） `requestIdleCallback()` 以 `requestIdleCallback()` 尽可能低的优先级安排任务，并且仅在浏览器空闲时间安排任务来分解工作。当主线程拥塞时，计划的任务 `requestIdleCallback()` 可能永远无法运行。
 
-### Use `async`/`await` to create yield points  (使用 / 创建屈服点)
+### Use `async`/`await` to create yield points  (使用 / 创建让步点)
 
 A phrase you'll see throughout the rest of this guide is "yield to the main thread"—but what does that mean? Why should you do it? When should you do it?  
 
-在本指南的其余部分，您将看到一句话是“屈服于主线程”——但这是什么意思？为什么要这样做？什么时候应该做？
+在本指南的其余部分，您将看到一句话是“让步于主线程”——但这是什么意思？为什么要这样做？什么时候应该做？
 
 :::info
 **Key point:** When you _yield_ to the main thread, you're giving it an opportunity to handle more important tasks than the ones that are currently queued up. Ideally, you should yield to the main thread whenever you have some crucial user-facing work that needs to execute sooner than if you didn't yield. **Yielding to the main thread creates opportunities for critical work to run sooner.**  
 
-关键点：当你屈服于主线程时，你就给了它一个机会来处理比当前排队的任务更重要的任务。理想情况下，每当您有一些面向用户的关键工作需要比不让步时更快地执行时，您都应该屈服于主线程。屈服于主线程为关键工作创造了更快运行的机会。
+关键点：当你让步于主线程时，你就给了它一个机会来处理比当前排队的任务更重要的任务。理想情况下，每当您有一些面向用户的关键工作需要比不让步时更快地执行时，您都应该让步于主线程。让步于主线程为关键工作创造了更快运行的机会。
 :::
 
 When tasks are broken up, other tasks can be prioritized better by the browser's internal prioritization scheme. One way to yield to the main thread involves using a combination of a `Promise` that resolves with a call to `setTimeout()`:  
 
-当任务被分解时，浏览器的内部优先级方案可以更好地确定其他任务的优先级。屈服于主线程的一种方法涉及使用 a `Promise` 的组合，该组合通过调用 to 解析 `setTimeout()` ：
+当任务被分解时，浏览器的内部优先级方案可以更好地确定其他任务的优先级。让步于主线程的一种方法涉及使用 a `Promise` 的组合，该组合通过调用 to 解析 `setTimeout()` ：
 
 ```js
 function yieldToMain () {
@@ -194,7 +194,7 @@ function yieldToMain () {
 :::warning
 Caution: While this code example returns a Promise that resolves after a call to setTimeout(), it's not the Promise that is responsible for running the rest of the code in a new task, it's the setTimeout() call. Promise callbacks run as microtasks rather than tasks, and therefore don't yield to the main thread.
 
-注意：虽然此代码示例返回在调用setTimeout（）后解析的Promise，但不是Promise负责在新任务中运行其余代码，而是setTimeout（）调用。Promise回调作为微任务而不是任务运行，因此不会屈服于主线程。
+注意：虽然此代码示例返回在调用setTimeout（）后解析的Promise，但不是Promise负责在新任务中运行其余代码，而是setTimeout（）调用。Promise回调作为微任务而不是任务运行，因此不会让步于主线程。
 :::
 
 In the `saveSettings()` function, you can yield to the main thread after each bit of work if you `await` the `yieldToMain()` function after each function call:  
@@ -229,7 +229,7 @@ async function saveSettings () {
 :::info
 **Key point:** You don't have to yield after _every_ function call. For example, if you run two functions that result in critical updates to the user interface, you probably don't want to yield in between them. If you can, let that work run first, _then_ consider yielding in between functions that do less critical or background work that the user doesn't see.  
 
-您不必在_每个_函数调用后屈服。例如，如果您运行两个导致用户界面发生关键更新的函数，您可能不希望在它们之间做出让步。如果可以的话，请先运行该工作，然后考虑在执行用户看不到的不太重要或后台工作的函数之间进行让步。
+您不必在_每个_函数调用后让步。例如，如果您运行两个导致用户界面发生关键更新的函数，您可能不希望在它们之间做出让步。如果可以的话，请先运行该工作，然后考虑在执行用户看不到的不太重要或后台工作的函数之间进行让步。
 :::
 
 The result is that the once-monolithic task is now broken up into separate tasks.  
@@ -243,9 +243,9 @@ The result is that the once-monolithic task is now broken up into separate tasks
 
 The benefit of using a promise-based approach to yielding rather than manual use of `setTimeout()` is better ergonomics. Yield points become declarative, and therefore easier to write, read, and understand.  
 
-使用基于承诺的屈服方法而不是手动使用的好处 `setTimeout()` 是更好的人体工程学。屈服点变得具有声明性，因此更易于编写、阅读和理解。
+使用基于承诺的让步方法而不是手动使用的好处 `setTimeout()` 是更好的人体工程学。让步点变得具有声明性，因此更易于编写、阅读和理解。
 
-### Yield only when necessary  仅在必要时才屈服
+### Yield only when necessary  仅在必要时才让步
 
 What if you have a bunch of tasks, but you only want to yield if the user attempts to interact with the page? That's the kind of thing that [`isInputPending()`](https://developer.chrome.com/articles/isinputpending/) was made for.  
 
@@ -349,15 +349,15 @@ async function saveSettings () {
 
 With this approach, you get a fallback for browsers that don't support `isInputPending()` by using a time-based approach that uses (and adjusts) a deadline so that work will be broken up where necessary, whether by yielding to user input, or by a certain point in time.  
 
-使用这种方法，你可以通过使用基于时间的方法为不支持 `isInputPending()` 的浏览器提供回退，该方法使用（并调整）截止时间，以便在必要时分解工作，无论是通过屈服于用户输入，还是在某个时间点。
+使用这种方法，你可以通过使用基于时间的方法为不支持 `isInputPending()` 的浏览器提供回退，该方法使用（并调整）截止时间，以便在必要时分解工作，无论是通过让步于用户输入，还是在某个时间点。
 
 ## Gaps in current APIs
 
 The APIs mentioned so far can help you break up tasks, but they have a significant downside: when you yield to the main thread by deferring code to run in a subsequent task, that code gets added to the very end of the task queue.  
-到目前为止提到的 API 可以帮助您分解任务，但它们有一个明显的缺点：当您通过将代码延迟到后续任务中运行时来屈服于主线程时，该代码会被添加到任务队列的最末尾。
+到目前为止提到的 API 可以帮助您分解任务，但它们有一个明显的缺点：当您通过将代码延迟到后续任务中运行时来让步于主线程时，该代码会被添加到任务队列的最末尾。
 
 If you control all the code on your page, it's possible to create your own scheduler with the ability to prioritize tasks, but third-party scripts won't use your scheduler. In effect, you're not really able to _prioritize_ work in such environments. You can only chunk it up, or explicitly yield to user interactions.  
-如果您控制页面上的所有代码，则可以创建自己的计划程序，并能够确定任务的优先级，但第三方脚本不会使用您的计划程序。实际上，在这样的环境中，您实际上无法确定工作的优先级。您只能将其分块，或显式地屈服于用户交互。
+如果您控制页面上的所有代码，则可以创建自己的计划程序，并能够确定任务的优先级，但第三方脚本不会使用您的计划程序。实际上，在这样的环境中，您实际上无法确定工作的优先级。您只能将其分块，或显式地让步于用户交互。
 
 Fortunately, there is a dedicated scheduler API that is currently in development that addresses these problems.  
 幸运的是，目前正在开发一个专用的调度程序 API 来解决这些问题。
@@ -434,7 +434,7 @@ This is a simplistic example of how `postTask()` can be used. It's possible to
 
 *One proposed part of the scheduler API is `scheduler.yield`, an API specifically designed for yielding to the main thread in the browser [which is currently available to try as an origin trial](https://developer.chrome.com/origintrials/#/view_trial/836543630784069633). Its use resembles the `yieldToMain()` function demonstrated earlier in this article:*
 
-*调度程序 API 的一个建议部分是 ，该 API 专门设计用于屈服于浏览器中的主线程 `scheduler.yield` ，目前可作为源试用进行尝试。它的用法类似于本文前面演示的 `yieldToMain()` 函数：*
+*调度程序 API 的一个建议部分是 ，该 API 专门设计用于让步于浏览器中的主线程 `scheduler.yield` ，目前可作为源试用进行尝试。它的用法类似于本文前面演示的 `yieldToMain()` 函数：*
 
 ```js
 async function saveSettings () {
@@ -469,7 +469,7 @@ You'll note that the code above is largely familiar, but instead of using `yiel
 ![20231116201606](https://blog-1318409910.cos.ap-beijing.myqcloud.com/blog/20231116201606.png)
 *A visualization of task execution without yielding, with yielding, and with yielding and continuation. When `scheduler.yield()` is used, task execution picks up where it left off even after the yield point.*
 
-*任务执行的可视化，不屈服，屈服，屈服和延续。使用时 `scheduler.yield()` ，即使在屈服点之后，任务执行也会从中断的地方继续执行。*
+*任务执行的可视化，不让步，让步，让步和延续。使用时 `scheduler.yield()` ，即使在让步点之后，任务执行也会从中断的地方继续执行。*
 
 :::info
 使用`scheduler.yield()`分割的任务在紧急任务（如用户交互）结束后会接着运行，但是被`yieldToMain()`和`await scheduler.yield()`分割的任务会进入事件循环的末尾。
@@ -490,7 +490,7 @@ Managing tasks is challenging, but doing so helps your page respond more quickly
     让位于主线程执行面向用户的关键任务。
 *   Use `isInputPending()` to yield to the main thread when the user is trying to interact with the page.  
 
-    用于 `isInputPending()` 在用户尝试与页面交互时屈服于主线程。
+    用于 `isInputPending()` 在用户尝试与页面交互时让步于主线程。
 *   Prioritize tasks with `postTask()`.  
 
     使用 `postTask()` 确定任务的优先级。

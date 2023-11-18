@@ -67,72 +67,42 @@ Across our tools, you'll start to see INP without the `experimental` prefix or
 | PageSpeed Insights API PageSpeed 见解 API | `experimental_interaction_to_next_paint` | `interaction_to_next_paint` |
 | Lighthouse report\* 灯塔报告\* | `experimental-interaction-to-next-paint` | `interaction-to-next-paint` |
 
+*Map of APIs to their old and new INP field name.* *(将 API 映射到其新旧 INP 字段名称。)*
+\* Lighthouse will stop using the experimental INP field in version 11.  
 
+\* Lighthouse 将在版本 11 中停止使用实验性 INP 字段。
 
+To ease the transition and avoid breaking any downstream applications, these APIs will continue to serve the experimental INP field for another 90 days. API support for the experimental INP field will end on August 8, 2023.  
 
+为了简化过渡并避免中断任何下游应用程序，这些 API 将继续为实验性 INP 领域服务 90 天。对实验性 INP 字段的 API 支持将于 2023 年 8 月 8 日结束。
 
+Meanwhile, FID will remain a Core Web Vital until March 2024. At that time, INP will join [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp) and [Cumulative Layout Shift (CLS)](https://web.dev/articles/cls) as the three stable Core Web Vitals. In a future update, we'll share more information about the precise timing of the change and the plan for FID after it's replaced as a Core Web Vital.  
 
+同时，FID 将在 2024 年 3 月之前仍然是 Core Web Vital。届时，INP 将加入 Largest Contentful Paint （LCP） 和 Cumulative Layout Shift （CLS） 作为三个稳定的核心 Web 指标。在未来的更新中，我们将分享有关更改的确切时间以及 FID 被替换为 Core Web Vital 后的计划的更多信息。
 
+## Getting started with INP  
+INP 入门
 
+![20231116220853](https://blog-1318409910.cos.ap-beijing.myqcloud.com/blog/20231116220853.png)
 
+Don't wait for INP to become a Core Web Vital in 2024 to start improving it. Your website may very well be in the [93%](https://httparchive.org/reports/chrome-ux-report#cruxFastFid) of sites that have good FID performance on mobile devices; however, you might be surprised to learn that only [65%](https://httparchive.org/reports/chrome-ux-report#cruxFastInp) of sites have good INP on mobile devices. INP paints a much more accurate picture of responsiveness, so these numbers help us to more clearly see the room for improvement ahead of us.  
 
+不要等到 INP 在 2024 年成为 Core Web Vital 才开始改进它。您的网站很可能在 93% 的移动设备上具有良好 FID 性能的网站中;但是，您可能会惊讶地发现，只有 65% 的网站在移动设备上具有良好的 INP。INP 描绘了更准确的响应能力图景，因此这些数字有助于我们更清楚地看到我们面前的改进空间。
 
+To find out whether your site has INP issues, how to address them, and all things INP, the best place to start is the [INP optimization guide](https://web.dev/articles/optimize-inp). Whether you're learning about responsiveness for the first time or you're a performance expert, we've added a lot of new guidance to make it as easy as possible for everyone to learn how to measure and optimize INP.  
 
+要了解您的网站是否存在 INP 问题、如何解决这些问题以及 INP 的所有问题，最好的起点是 INP 优化指南。无论您是第一次了解响应能力，还是性能专家，我们都添加了许多新指南，让每个人都能尽可能轻松地学习如何衡量和优化 INP。
 
+INP might take some time to learn, and that's just fine. To help you focus on the optimizations with the biggest ROI, earlier this year we published [a blog post](https://web.dev/blog/top-cwv-2023) to distill our guidance down to the most effective recommendations to improve Core Web Vitals. Specifically, we wrote about three must-know techniques that apply equally to optimizing FID and INP: avoid or break up long tasks, avoid unnecessary JavaScript, and avoid large rendering updates. You can learn more about these and many other INP optimization techniques in [our documentation](https://web.dev/articles/optimize-inp).  
+INP 可能需要一些时间来学习，这很好。为了帮助您专注于具有最大投资回报率的优化，今年早些时候，我们发布了一篇博客文章，将我们的指导提炼为最有效的建议，以改进 Core Web Vitals。具体来说，我们写了三种必须知道的技术，它们同样适用于优化 FID 和 INP：避免或分解冗长的任务，避免不必要的 JavaScript，以及避免大规模的渲染更新。您可以在我们的文档中了解有关这些和许多其他 INP 优化技术的更多信息。
 
 
+## The road ahead 前方的道路
 
+A new bar for responsiveness has been set, and we're excited to see the community rise to the challenge for a better user experience. The early [feedback](https://groups.google.com/g/web-vitals-feedback) and [case studies](https://web.dev/tags/case-study) have been promising, but we know that for many, it may be a long and unfamiliar road ahead. We strive to make that journey as easy as possible with improved [diagnostics](https://github.com/w3c/longtasks/blob/main/loaf-explainer.md), [tools](https://web.dev/articles/vitals-tools), and [documentation](https://web.dev/articles/optimize-inp) to help developers along the way.  
 
+响应能力的新标准已经设定，我们很高兴看到社区迎接挑战，以获得更好的用户体验。早期的反馈和案例研究很有希望，但我们知道，对许多人来说，这可能是一条漫长而陌生的道路。我们努力通过改进诊断、工具和文档来帮助开发人员，使这一过程尽可能简单。
 
+Stay tuned for updates on INP's exact graduation date in March 2024. And even though the metric is not experimental anymore, we're always open to feedback at [web-vitals-feedback@googlegroups.com](mailto:web-vitals-feedback@googlegroups.com) to help us improve INP and the Web Vitals program as a whole.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+请继续关注 INP 2024 年 3 月确切毕业日期的最新消息。尽管该指标不再是实验性的，但我们始终愿意接受 web-vitals-feedback@googlegroups.com 反馈，以帮助我们改进 INP 和整个 Web 指标计划。

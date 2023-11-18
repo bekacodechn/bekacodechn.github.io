@@ -18,6 +18,7 @@ const wordsMap: WorkMap = {
   "service worker": ["服务工作者", "服务 Worker"],
   UI线程: "用户界面线程",
   渲染器: "呈现器",
+  让步: '屈服'
 };
 
 const replaceWord = (source: string, target: string) => {

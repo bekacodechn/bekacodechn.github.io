@@ -8,15 +8,15 @@
 
 ---
 
-这是探讨浏览器工作原理的 4 篇系列博客中的第 3 篇。在此之前，我们介绍了[多进程架构](./inside-browser-part-1.md)和[导航流程](./inside-browser-part-2.md)。在本篇博文中，我们将探讨呈现器进程内部发生的事情。
+这是探讨浏览器工作原理的 4 篇系列博客中的第 3 篇。在此之前，我们介绍了[多进程架构](./inside-browser-part-1.md)和[导航流程](./inside-browser-part-2.md)。在本篇博文中，我们将探讨渲染器进程内部发生的事情。
 
-呈现器进程涉及网络性能的许多方面。由于呈现器进程内部发生了很多事情，因此本篇文章只是一个总体概述。如果您想深入了解，[Web Fundamentals 的 Performance](https://developers.google.com/web/fundamentals/performance/why-performance-matters/) 部分有更多资源。
+渲染器进程涉及网络性能的许多方面。由于渲染器进程内部发生了很多事情，因此本篇文章只是一个总体概述。如果您想深入了解，[Web Fundamentals 的 Performance](https://developers.google.com/web/fundamentals/performance/why-performance-matters/) 部分有更多资源。
 
 ## Renderer processes handle web contents (渲染器进程处理网络内容)
 
-呈现器进程负责标签页内发生的一切。在呈现器进程中，主线程负责处理发送给用户的大部分代码。如果使用 Web Worker 或服务 Worker，有时 JavaScript 的部分代码会由工作线程处理。合成器和光栅线程(Compositor and raster threads)也会在呈现器进程中运行，以高效流畅地呈现页面。
+渲染器进程负责标签页内发生的一切。在渲染器进程中，主线程负责处理发送给用户的大部分代码。如果使用 Web Worker 或service worker，有时 JavaScript 的部分代码会由工作线程处理。合成器和光栅线程(Compositor and raster threads)也会在渲染器进程中运行，以高效流畅地呈现页面。
 
-呈现器进程的核心工作是将 HTML、CSS 和 JavaScript 转化为用户可以交互的网页。
+渲染器进程的核心工作是将 HTML、CSS 和 JavaScript 转化为用户可以交互的网页。
 
 ![20231113140048](https://blog-1318409910.cos.ap-beijing.myqcloud.com/blog/20231113140048.png)
 *图 1：包含主线程、工作线程、合成器线程和光栅线程的渲染器进程*
@@ -25,7 +25,7 @@
 
 ### Construction of a DOM (构建 DOM)
 
-当呈现器进程收到导航提交信息并开始接收 HTML 数据时，主线程就会开始解析文本字符串（HTML），并将其转化为文档对象模型（DOM）。
+当渲染器进程收到导航提交信息并开始接收 HTML 数据时，主线程就会开始解析文本字符串（HTML），并将其转化为文档对象模型（DOM）。
 
 DOM 是浏览器对页面的内部表示，也是网络开发人员可以通过 JavaScript 与之交互的数据结构和 API。
 
