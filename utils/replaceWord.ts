@@ -18,7 +18,10 @@ const wordsMap: WorkMap = {
   "service worker": ["服务工作者", "服务 Worker"],
   UI线程: "用户界面线程",
   渲染器: "呈现器",
-  "Shadow DOM ": ["阴影DOM"]
+  "Shadow DOM ": ["阴影DOM"],
+  "`Largest Contentful Paint`": ["最大内容涂料"],
+  "TTFB": ["时间到第一字节"],
+  "`Fetch Priority`": ["撷取优先级", "获取优先级"],
   // 让步: '屈服'
 };
 
